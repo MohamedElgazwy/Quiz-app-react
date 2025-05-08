@@ -1,0 +1,43 @@
+.app {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 90%;
+  min-width: 700px;
+  margin: 100px auto 0;
+  padding: 10px;
+}
+h2 {
+  padding-left: 10px;
+}
+.content {
+  padding-top: 5px;
+}
+.content button {
+  display: block;
+  width: 90%;
+  text-align: left;
+  border: 1px solid;
+  border-radius: 5px;
+  margin: 15px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.content button:hover:not(.disabled) {
+  background-color: #222;
+  color: white;
+}
+.false {
+  background-color: #ff9393;
+}
+.true {
+  background-color: #9aeabc;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px 15px;
+}
+.play-again-btn {
+  background-color: red;
+}
