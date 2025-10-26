@@ -1,5 +1,6 @@
+// ...existing code...
 import "./App.css";
-import Quiz from "./Components/quiz";
+import Quiz from "./components/Quiz";
 function App() {
   return (
     <div className="container">
@@ -7,5 +8,5 @@ function App() {
     </div>
   );
 }
-
+// ...existing code...
 export default App;
