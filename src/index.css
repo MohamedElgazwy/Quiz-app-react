@@ -1,0 +1,32 @@
+@import "tailwindcss";
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+      "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer components {
+  .heading-1 {
+    @apply text-3xl font-bold text-gray-800;
+  }
+
+  .heading-2 {
+    @apply text-2xl font-semibold text-gray-800;
+  }
+
+  .body-text {
+    @apply text-base leading-relaxed text-gray-600;
+  }
+
+  .card {
+    @apply bg-white rounded-2xl shadow-xl p-6;
+  }
+}
